@@ -208,7 +208,7 @@ El infijo `.xxl` (de extra extra large) se usa para tamaños **de 1400px o más*
 ### .container  <!-- {_class="rosa"} -->
 Es el elemento más básico de bootstrap. Envuelve el contenido en un contenedor centrado que varía de tamaño según el tamaño de pantalla.
 
-![Container bootstrap](../assets/container.png) 
+![Container bootstrap](./assets/container.png) 
 
 --
 
@@ -228,7 +228,7 @@ Bootstrap necesita que creemos un `.row` para poder utilizar el *grid system* qu
 #### Grid System <!-- {_class="amarillo"} -->
 Básicamente lo que nos hace bootstrap es dividir cada `.row` en 12 columnas para poder meter el contenido de la forma que queramos.
 
-![Grid System Bootstrap](../assets/grid-system.png)
+![Grid System Bootstrap](./assets/grid-system.png)
 
 --
 
@@ -245,12 +245,12 @@ Para utilizar el sistema de columnas creado por el `.row` usaremos etiquetas con
 
 <style>
 .tres-cols-image {
-    background-image: url(../assets/tres-cols.png); 
+    background-image: url(./assets/tres-cols.png); 
     height: 270px; 
     background-repeat: no-repeat;
     background-size: contain;}
 .tres-cols-image:hover {
-    background-image: url(../assets/tres-cols-rejilla.png); }
+    background-image: url(./assets/tres-cols-rejilla.png); }
 </style>
 
 --
@@ -259,12 +259,12 @@ Para utilizar el sistema de columnas creado por el `.row` usaremos etiquetas con
 <div class="columnas-distintas fragment"></div>
 <style>
 .columnas-distintas {
-    background-image: url(../assets/columnas-distintas.png); 
+    background-image: url(./assets/columnas-distintas.png); 
     height: 270px; 
     background-repeat: no-repeat;
     background-size: contain;}
 .columnas-distintas:hover {
-    background-image: url(../assets/columnas-distintas-rejilla.png); }
+    background-image: url(./assets/columnas-distintas-rejilla.png); }
 </style>
 
 --
@@ -282,26 +282,26 @@ Esta clase sirve para hacer que la caja se adapte al contenido que tiene, no al 
 <div class="col-auto fragment"></div>
 <style>
 .col-auto {
-    background-image: url(../assets/col-auto.png); 
+    background-image: url(./assets/col-auto.png); 
     height: 270px; 
     background-repeat: no-repeat;
     background-size: contain;}
 .col-auto:hover {
-    background-image: url(../assets/col-auto-rejilla.png); }
+    background-image: url(./assets/col-auto-rejilla.png); }
 </style>
 
 --
 
 ### .row .row-cols-{número} <!-- {_class="rosa"} -->
 Sin necesidad de ponerle clases a las columnas, si le ponemos esta clase al `.row`, nos organizará el interior automáticamente en el número de columnas que digamos.
-![row-cols](../assets/row-cols.png)
+![row-cols](./assets/row-cols.png)
 
 --
 
 ### Rows dentro de otros rows <!-- {_class="lila" style="margin-top: 2rem !important"} -->
 
 Si añadimos un `.row` dentro de otro, éste tendrá otro sistema de 12 columnas completamente nuevo (obviamente más pequeño).
-![row-cols](../assets/nested-rows.png)
+![row-cols](./assets/nested-rows.png)
 
 --
 
