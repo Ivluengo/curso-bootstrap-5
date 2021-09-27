@@ -1,4 +1,4 @@
-<img class="w-1/4" src="custom/../../assets/logo-bootstrap.svg" alt="Logo Bootstrap">
+<img class="w-1/4" src="../assets/logo-bootstrap.svg" alt="Logo Bootstrap">
 
 # Bootstrap 5
 
@@ -33,19 +33,19 @@ Simplemente creamos un conjunto de clases con unos nombres descriptivos que nos 
 
 <div class="fragment current-visible semi-fade-out">
     <h3>Foundation</h3>
-    <img class="w-1/4" src="assets/logo-foundation.png">
+    <img class="w-1/4" src="../assets/logo-foundation.png">
 </div>
 
 <div class="fragment current-visible semi-fade-out">
     <h3>Stylus</h3>
-    <img class="w-1/3" src="assets/logo-stylus.svg">
+    <img class="w-1/3" src="../assets/logo-stylus.svg">
 </div>
 
 </div>
 
 <div class="fragment">
     <h3>Tailwind CSS</h3>
-    <img class="w-1/3" src="assets/logo-tailwindcss.svg">
+    <img class="w-1/3" src="../assets/logo-tailwindcss.svg">
 </div>
 
 
