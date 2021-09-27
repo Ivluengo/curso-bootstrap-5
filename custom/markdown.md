@@ -1,4 +1,4 @@
-<img class="w-1/4" src="../assets/logo-bootstrap.svg" alt="Logo Bootstrap">
+<img class="w-1/4" src="/assets/logo-bootstrap.svg" alt="Logo Bootstrap">
 
 # Bootstrap 5
 
@@ -33,19 +33,19 @@ Simplemente creamos un conjunto de clases con unos nombres descriptivos que nos 
 
 <div class="fragment current-visible semi-fade-out">
     <h3>Foundation</h3>
-    <img class="w-1/4" src="../assets/logo-foundation.png">
+    <img class="w-1/4" src="/assets/logo-foundation.png">
 </div>
 
 <div class="fragment current-visible semi-fade-out">
     <h3>Stylus</h3>
-    <img class="w-1/3" src="../assets/logo-stylus.svg">
+    <img class="w-1/3" src="/assets/logo-stylus.svg">
 </div>
 
 </div>
 
 <div class="fragment">
     <h3>Tailwind CSS</h3>
-    <img class="w-1/3" src="../assets/logo-tailwindcss.svg">
+    <img class="w-1/3" src="/assets/logo-tailwindcss.svg">
 </div>
 
 
@@ -321,37 +321,37 @@ Gracias a flexbox podemos alinear verticalmente:
 <p class="text-2xl">Todas las cajas a la vez 👉 <code>.align-items-{start|center|end}</code> </p>
 
 <div class="flex flex-wrap gap-2 justify-center">
-<img class="" style="margin:0 !important; flex-shrink: 0; width: 45%" src="../assets/align-start.png">
-<img class="" style="margin:0 !important; flex-shrink: 0; width: 45%" src="../assets/align-center.png">
-<img class="" style="margin:0 !important; flex-shrink: 0; width: 45%" src="../assets/align-end.png">
+<img class="" style="margin:0 !important; flex-shrink: 0; width: 45%" src="/assets/align-start.png">
+<img class="" style="margin:0 !important; flex-shrink: 0; width: 45%" src="/assets/align-center.png">
+<img class="" style="margin:0 !important; flex-shrink: 0; width: 45%" src="/assets/align-end.png">
 </div>
 
 --
 
 <p class="text-2xl">Cada caja individualmente 👉 <code>.align-self-{start|center|end}</code> </p>
-<img class="" style="" src="../assets/align-self.png">
+<img class="" style="" src="/assets/align-self.png">
 
 ---
 
 ## Alineamiento horizontal <!-- {_class="lila"} -->
 Y también podemos alinear horizontalmente:
 
-<div class="flex items-center"><code style="width:260px; flex-shrink: 0; font-size: 0.6em !important">.justify-content-start</code><div style="margin-bottom: 1rem"><img style="margin: 0 !important;" class="" src="../assets/justify-start.png"></div></div>
-<div class="flex items-center"><code style="width:260px; flex-shrink: 0; font-size: 0.6em !important">.justify-content-center</code><div style="margin-bottom: 1rem"><img style="margin: 0 !important;" class="" src="../assets/justify-center.png"></div></div>
-<div class="flex items-center"><code style="width:260px; flex-shrink: 0; font-size: 0.6em !important">.justify-content-end</code><div style="margin-bottom: 1rem"><img style="margin: 0 !important;" class="" src="../assets/justify-end.png"></div></div>
+<div class="flex items-center"><code style="width:260px; flex-shrink: 0; font-size: 0.6em !important">.justify-content-start</code><div style="margin-bottom: 1rem"><img style="margin: 0 !important;" class="" src="/assets/justify-start.png"></div></div>
+<div class="flex items-center"><code style="width:260px; flex-shrink: 0; font-size: 0.6em !important">.justify-content-center</code><div style="margin-bottom: 1rem"><img style="margin: 0 !important;" class="" src="/assets/justify-center.png"></div></div>
+<div class="flex items-center"><code style="width:260px; flex-shrink: 0; font-size: 0.6em !important">.justify-content-end</code><div style="margin-bottom: 1rem"><img style="margin: 0 !important;" class="" src="/assets/justify-end.png"></div></div>
 
 --
 
-<div class="flex items-center"><code style="width:260px; flex-shrink: 0; font-size: 0.6em !important">.justify-content-around</code><div style="margin-bottom: 1rem"><img style="margin: 0 !important;" class="" src="../assets/justify-around.png"></div></div>
-<div class="flex items-center"><code style="width:260px; flex-shrink: 0; font-size: 0.6em !important">.justify-content-evenly</code><div style="margin-bottom: 1rem"><img style="margin: 0 !important;" class="" src="../assets/justify-evenly.png"></div></div>
-<div class="flex items-center"><code style="width:260px; flex-shrink: 0; font-size: 0.6em !important">.justify-content-between</code><div style="margin-bottom: 1rem"><img style="margin: 0 !important;" class="" src="../assets/justify-between.png"></div></div>
+<div class="flex items-center"><code style="width:260px; flex-shrink: 0; font-size: 0.6em !important">.justify-content-around</code><div style="margin-bottom: 1rem"><img style="margin: 0 !important;" class="" src="/assets/justify-around.png"></div></div>
+<div class="flex items-center"><code style="width:260px; flex-shrink: 0; font-size: 0.6em !important">.justify-content-evenly</code><div style="margin-bottom: 1rem"><img style="margin: 0 !important;" class="" src="/assets/justify-evenly.png"></div></div>
+<div class="flex items-center"><code style="width:260px; flex-shrink: 0; font-size: 0.6em !important">.justify-content-between</code><div style="margin-bottom: 1rem"><img style="margin: 0 !important;" class="" src="/assets/justify-between.png"></div></div>
 
 ---
 
 ## Offset <!-- {_class="azul"} -->
 Con el offset podemos mover cajas hacia la derecha un determinado número de columnas. Lo que hace es añadir un margen izquierdo a la caja.
 
-<img style="" class="" src="../assets/offset-cuatro.png">
+<img style="" class="" src="/assets/offset-cuatro.png">
 
 <p class="text-xl">❗ Asegurarse de restablecer el offset con <code>.offset-**-0</code> en breakpoints superiores. ❗</p>
 
@@ -360,7 +360,7 @@ Con el offset podemos mover cajas hacia la derecha un determinado número de col
 ## Alinear con margins <!-- {_class="verde"} -->
 También podemos usar los *margins* para mover cajas, ya que flexbox las empuja hasta el final si utilizamos `margin: auto;`
 
-<img style="" class="" src="../assets/margin-auto.png">
+<img style="" class="" src="/assets/margin-auto.png">
 
 <p class="rosa" style="font-size: 0.8em">👨‍🏫 Ejercicio 02-Rejilla</p>
 
