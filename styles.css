@@ -1,0 +1,61 @@
+:root {
+    --verde: hsl(149, 37%, 65%);
+    --amarillo: hsl(40, 93%, 54%);
+    --azul: hsl(200, 72%, 49%);
+    --rosa: hsl(344, 79%, 61%);
+    --lila: hsl(276, 29%, 49%);
+}
+
+.verde {
+    color: var(--verde) !important;
+}
+.amarillo {
+    color: var(--amarillo) !important;
+}
+.azul {
+    color: var(--azul) !important;
+}
+.rosa {
+    color: var(--rosa) !important;
+}
+.lila {
+    color: var(--lila) !important;
+}
+
+
+img {
+    display: inline-block;
+}
+
+.slides {
+  outline: 8px solid #232323;
+  outline-offset: -20px;
+}
+
+section {
+  width: calc(100% - 100px) !important;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.reveal h1 {
+  font-size: 3em;
+}
+
+.verticator {
+  font-size: 20px;
+  right: 45px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.verticator .active {
+  transform: scale(1.35);
+  transform-origin: -13px 10px;
+  transition: .3s ease;
+}
+
+li:not(:last-child) {
+    margin-bottom: .3em;
+}
